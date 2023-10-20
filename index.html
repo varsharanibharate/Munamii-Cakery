@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cake.css">
+</head>
+
+<body>
+    <div>
+        <div class="home-container">
+            <div class="header-container">
+                <ul>
+                    <li><a href="#storeSection" class="list-element">Store</a></li>
+                    <li><a href="#aboutSection" class="list-element">About</a></li>
+                    <li><a href="#locationSection" class="list-element">Location</a></li>
+                    <li><a href="#contactUsSection" class="list-element">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="home-container-details">
+                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1498589015.jpg" alt="logo" />
+                <h1 class="home-container-details-heading">We come to your house!</h1>
+                <button type="button">Buy!</button>
+            </div>
+        </div>
+        <div class="store-container" id="storeSection">
+            <nav class="navbar navbar-expand-lg navbar-light mb-5 mt-4 ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <p class="pt-2 categories">Categories</p>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" id="navItem1" href="#cupCakesSection">
+                                Cupcakes
+                                <span class="sr-only">(current)</span>
+                            </a>
+                            <a class="nav-link" href="#weddingCakesSection" id="navItem2">Weddingcakes</a>
+                            <a class="nav-link" href="https://munamii.com/Promos-c54324100" id="navItem3">Promos</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <p class="description">
+                Hello! Welcome to Munamii Cakery! We offer you the most delicious cakes and cupcakes <br>
+                for all types of events and celebrations. Select below what you would like to purchase.
+            </p>
+            <div class="sub-container">
+                <h1 class="heading">Featured Products</h1>
+                <a class="feture-product-container shadow" href="https://munamii.com/Month-Baby-Cake-p214133343">
+                    <div class="effect">
+                        <img class="image" src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1505238753.jpg" alt="" />
+                        <img class="image hover" src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1676201502.jpg" alt="" />
+                    </div>
+                    
+                    <div class="feture-product-details">
+                        <h3 class="title">Month Baby Cakes</h3>
+                        <p class="price">US$25.00</p>
+                        <button type="button" class="buy-button">Buy Now</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="products-container">
+            <div id="cupCakesSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="heading">Cupcakes</h2>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1498969810.jpg" id="cupcake1" alt="" class="item-image" onmouseover="mouseOverCupcake1()" onmouseout="mouseOutCupcake1()"/>
+                                <div class="item-details">
+                                    <h3 class="title">Box of 4 cupcakes</h3>
+                                    <p class="price">US$12.00</p>
+                                    <a  href="https://munamii.com/Caja-4-cupcakes-p212823856"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/3587618652.jpg" id="cupcake2" alt="" class="item-image" onmouseover="mouseOverCupcake2()" onmouseout="mouseOutCupcake2()" />
+                                <div class="item-details">
+                                    <h3 class="title">Box of 12 Mother's Day cupcakes</h3>
+                                    <p class="price">US$20.00</p>
+                                    <a href="https://munamii.com/Caja-12-cupcakes-Dia-de-la-Madre-p551752539"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/3587614724.jpg" id="cupcake3"  alt="" class="item-image"  onmouseover="mouseOverCupcake3()" onmouseout="mouseOutCupcake3()" />
+                                <div class="item-details">
+                                    <h3 class="title">Box of 1 Mother's Day cupcake</h3>
+                                    <p class="price">US$2.50</p>
+                                    <a href="https://munamii.com/Caja-1-Cupcake-D%C3%ADa-de-la-Madre-p551749282"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1498969807.jpg" id="cupcake4"  alt="" class="item-image" onmouseover="mouseOverCupcake4()" onmouseout="mouseOutCupcake4()" />
+                                <div class="item-details">
+                                    <h3 class="title">Box of 6 cupcakes</h3>
+                                    <p class="price">US$15.00</p>
+                                    <a href="https://munamii.com/Caja-6-cupcakes-p212823857"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1498969801.jpg" id="cupcake5"  alt="" class="item-image" onmouseover="mouseOverCupcake5()" onmouseout="mouseOutCupcake5()" />
+                                <div class="item-details">
+                                    <h3 class="title">Box of 12 cupcakes</h3>
+                                    <p class="price">US$20.00</p>
+                                    <a href="https://munamii.com/Caja-12-cupcakes-p212823858"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://live.staticflickr.com/8269/8756645330_7978106b20_w.jpg" id="cupcake6"  alt="" class="item-image" onmouseover="mouseOverCupcake6()" onmouseout="mouseOutCupcake6()" />
+                                <div class="item-details">
+                                    <h3 class="title">Birthday cupcake</h3>
+                                    <p class="price">US$15.00</p>
+                                    <a><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://live.staticflickr.com/5330/8755524555_9f7891137e.jpg" id="cupcake7"  alt="" class="item-image" onmouseover="mouseOverCupcake7()" onmouseout="mouseOutCupcake7()" />
+                                <div class="item-details">
+                                    <h3 class="title">Pokemon cupcakes</h3>
+                                    <p class="price">US$25.00</p>
+                                    <a><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://live.staticflickr.com/5462/8755524049_afd76b6593_b.jpg" id="cupcake8"  alt="" class="item-image" onmouseover="mouseOverCupcake8()" onmouseout="mouseOutCupcake8()"/>
+                                <div class="item-details">
+                                    <h3 class="title">Red Velvet</h3>
+                                    <p class="price">US$12.00</p>
+                                    <a><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="weddingCakesSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="heading">Wedding Cakes</h2>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1504184798.jpg" alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Cookie-Monster-Cake</h3>
+                                    <p class="price">US$35.00</p>
+                                    <a href="https://munamii.com/Cookie-Monster-Cake-p213898392"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1504132529.jpg" alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Ericka</h3>
+                                    <p class="price">US$30.00</p>
+                                    <a href="https://munamii.com/Ericka-p213898315"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1503930314.jpg"  alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title"><torta Balen></h3>
+                                    <p class="price">US$25.00</p>
+                                    <a href="https://munamii.com/Torta-Bel%C3%A9n-p213760213"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1503681026.jpg"  alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Torta Gabriela</h3>
+                                    <p class="price">US$35.00</p>
+                                    <a href="https://munamii.com/Torta-Gabriela-p213760284"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1504122700.jpg"  alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Torta Jack</h3>
+                                    <p class="price">US$35.00</p>
+                                    <a href="https://munamii.com/Torta-Jack-p213901338"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/2921601093.jpg" alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Torta Flork San Valentin</h3>
+                                    <p class="price">US$20.00</p>
+                                    <a href="https://munamii.com/Torta-Flork-San-Valent%C3%ADn-p213942014"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1504156997.jpg" alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Torta Kitty</h3>
+                                    <p class="price">US$35.00</p>
+                                    <a href="https://munamii.com/Torta-Kitty-Cat-p442563501"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="item-container shadow">
+                                <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1503647550.jpg" alt="" class="item-image" />
+                                <div class="item-details">
+                                    <h3 class="title">Veronica</h3>
+                                    <p class="price">US$35.00</p>
+                                    <a href="https://munamii.com/Ver%C3%B3nica-p213760246"><button type="button" class="buy-button">Buy Now</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="about-section" id="aboutSection">
+            <h2 class="heading">About</h2>
+            <div class="about-container">
+                <div class="about-profile">
+                    <img src="https://d2j6dbq0eux0bg.cloudfront.net/startersite/images/16830190/1593284287541.jpg" alt="" class="profile-image">
+                    <p class="profile-description">Isabela Carmigniani</p>
+                    <p class="profile-description">Founding owner</p>
+                </div>
+                <p class="para">At Munamii Cakery, every cake, every box of cupcakes we make has a very special <br>
+                    value for us. We not only want to bring a dessert to your table but rather a unique <br>
+                    experience for you, which will become an unforgettable memory. We have been in <br>
+                    the pastry market for more than 8 years and now we offer you a new way to buy <br>
+                    through our website.
+                </p>
+
+            </div>
+        </div>
+        <div class="location-container" id="locationSection">
+            <h2 class="heading">Shipping and deliveries</h2>
+            <p class="para">Home delivery service: Guayaquil and Samborondón at an additional cost.<br>
+                <br>
+                Pick-up location: Sector Via la Costa cdla. Urb. Puerto Azul. Request GPS Location.<br>
+                <br>
+                Orders must be ordered 2 days in advance for safety, processing and availability.<br>
+                <br>
+                Contact us for more information.<br>
+                <br>
+                Tuesday to Saturday <br> 9 a.m. to 2 p.m
+        </div>
+
+        <div class="d-flex flex-row justify-content-center m-5" id="contactUsSection">
+            <a href="https://www.facebook.com/munamiicupcakes" class="icon-container">
+                <i class="fab fa-facebook icon"></i>
+                <p class="contact-text">MunamiiiCupcakes</p>
+            </a>
+            <a href="https://www.instagram.com/munamii.cakery/" class="icon-container">
+                <i class="fab fa-instagram icon"></i>
+                <p class="contact-text">@munamii.cakery</p>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5930985750248" class="icon-container">
+                <i class="fab fa-whatsapp icon"></i>
+                <p class="contact-text">WhatsApp</p>
+            </a>
+        </div>
+        <div class="footer-section">
+            <div class="d-flex flex-row">
+                <a href="https://www.facebook.com/login" class="footer-section-icon-container">
+                    <i class="fab fa-facebook footer-icon"></i>
+                    <p class="footer-text">Share</p>
+                </a>
+
+                <a href="https://twitter.com/" class="footer-section-icon-container">
+                    <i class="fab fa-twitter footer-icon"></i>
+                    <p class="footer-text">Tweet</p>
+                </a>
+                <a href="https://in.pinterest.com/" class="footer-section-icon-container">
+                    <i class="fab fa-pinterest-square footer-icon"></i>
+                    <p class="footer-text">Pin</p>
+                </a>
+
+            </div>
+            <div class="d-flex flex-row">
+                <a href="https://munamii.com/pages/terms" class="text">Delivery times</a>
+                <a href="https://munamii.com/pages/shipping-payment" class="text">Payment info</a>
+                <a href="https://munamii.com/pages/returns" class="text">Return policy</a>
+            </div>
+            <div class="d-flex flex-row m-3">
+                <i class="fa fa-copyright txt pt-1"> @ Munamii Cakery .</i>
+                <a href="mailto:abuse@company.site?subject=Complaint%20against%20store,%20https://munamii.com" class="pl-2 txt">Report abuse </a>
+            </div>
+
+            <a href="https://www.ecwid.com/?">
+                <p class="logo-text">Powered By</p>
+                <img src="https://www.orderdesk.com/wp-content/uploads/2022/04/logo-ecwid2800x-1024x549-1-915x491.png" alt="" class="footer-logo">
+            </a>
+
+        </div>
+    </div>
+    <script src="cake.js"></script>
+</body>
+
+</html>

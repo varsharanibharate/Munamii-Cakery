@@ -1,0 +1,492 @@
+body {
+    margin: 10px;
+
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 15px;
+
+    height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container {
+        flex-direction: row;
+
+    }
+}
+
+.header-container {
+    background-image: url("https://drive.google.com/uc?id=1t0Jv7Ra5juLHvceNDWm0f5hIPCubgX0_");
+    background-size: cover;
+    display: block;
+    box-shadow: none;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        width: 60%;
+        max-width: 1200;
+        height: 100%;
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+li {
+    padding-right: 10px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    li {
+        font-size: 28px;
+    }
+}
+
+.list-element {
+    color: white;
+}
+
+.home-container-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container-details {
+        width: 40%;
+    }
+}
+
+.home-container-details img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container-details img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.home-container-details-heading {
+    font-family: italic;
+    font-size: 30px;
+    font-weight: 700;
+    color: indianred;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container-details-heading {
+        font-size: 50px;
+    }
+}
+
+.home-container-details button {
+    margin: 30px;
+    background-color: cadetblue;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 50px;
+    font-size: 22px;
+    font-family: "Roboto";
+
+}
+
+@media screen and (min-width: 768px) {
+    .home-container-details button {
+        width: 150px;
+        height: 80px;
+        font-size: 32px;
+    }
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+.store-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.categories {
+    font-size: 28px;
+    color: #33adff;
+}
+
+@media screen and (min-width:992px) {
+    .categories {
+        display: none;
+        
+    }
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+
+
+
+.description {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: dimgrey;
+    text-align: center;
+}
+
+.feture-product-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 30px;
+  
+}
+
+@media screen and (min-width:768px) {
+    .feture-product-container {
+        height: 500px;
+        width: 350px;
+    }
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 42px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .heading {
+        font-size: 58px;
+    }
+}
+
+.effect img.image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .effect img.image {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+.effect:hover img.image{
+    display:none;
+}
+
+.effect img.hover{
+    display:none;
+}
+
+.effect:hover img.hover{
+    display:block;
+}
+
+@media screen and (min-width:768px) {
+    .image {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+.feture-product-details {
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+
+.price {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .price {
+        font-size: 24px;
+    }
+}
+
+.buy-button {
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 80px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid #e0ebeb;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .buy-button {
+        font-size: 24px;
+        width: 120px;
+    }
+}
+
+.cakes-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 20px;
+    width: 100%;
+}
+
+
+.item-image {
+    border-radius: 5px;
+    height: 38%;
+    margin-bottom: 20px;
+    background-color: #e0ebeb;
+}
+
+.item-details {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #323f4b62;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (min-width:768px) {
+    .about-container {
+        flex-direction: row;
+    }
+}
+
+.about-profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.profile-image {
+    border-radius: 150px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .profile-image {
+        width: 80%;
+    }
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: dimgrey;
+    padding: 25px;
+}
+
+@media screen and (min-width:768px) {
+    .para {
+        font-size: 20px;
+    }
+}
+
+.profile-description {
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .profile-description {
+        font-size: 20px;
+    }
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .contact-container {
+        flex-direction: row;
+    }
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.contact-text {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: blue;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.footer-section-icon-container {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer-icon {
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+    margin-top: 5px;
+}
+
+.footer-text {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text {
+    font-family: "Roboto";
+    font-size: 18px;
+    margin: 20px;
+}
+
+.txt {
+    font-size: 20px;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 150px;
+    margin: 0;
+}
+
+.logo-text {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
